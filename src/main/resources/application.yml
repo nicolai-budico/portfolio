@@ -1,0 +1,16 @@
+debug: false
+
+server:
+  address: 127.0.0.1
+  port: 8080
+  servlet:
+    context-path: "/api"
+
+execution:
+  max-tasks: 2
+  throttle-ms: 5000
+
+logging:
+  level:
+    root: warn
+    info.wheelly.profile: debug
